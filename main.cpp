@@ -1,16 +1,15 @@
 #include <iostream>
-#include <string>
+#include "threeintsfcts.hpp"
 using namespace std;
 
+// Normally lots of other code here
+
 int main() {
-    string name;
-    int age;
-    
-    cout<< "Enter your name:";
-    getline(cin,name);
-    cout<< "Enter your age: ";
-    cin >> age;
-    cout << "Hello, " <<name<< "!" <<endl;
-    cout << "You are "<<age<< " years old!" <<endl;
-    return 0;
+
+   cout << ThreeIntsSum(5, 10, 20) << endl;
+   cout << ThreeIntsAvg(5, 10, 20) << endl;
+
+   return 0;
 }
+
+// Normally lots of other code here
